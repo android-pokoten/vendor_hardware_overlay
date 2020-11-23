@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-asus-zenfone5 \
+	treble-overlay-asus-zenfone5-10 \
 	treble-overlay-asus-zenfone5z \
 	treble-overlay-asus-zenfonelivel1za550kl \
 	treble-overlay-asus-zenfonemaxm2 \
@@ -15,8 +16,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
+	treble-overlay-duoqin-qin2pro \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-fairphone-fp3 \
+	treble-overlay-gestures \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
@@ -53,14 +56,18 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g6plus \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
+	treble-overlay-moto-g8 \
 	treble-overlay-moto-g8plus \
 	treble-overlay-moto-g8power \
 	treble-overlay-moto-one \
+	treble-overlay-moto-one-action \
 	treble-overlay-moto-onehyper \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
+	treble-overlay-nokia-ddv_7_2 \
 	treble-overlay-nokia-drg-6.1plus-x6 \
+	treble-overlay-nokia-nokia_4_2 \
 	treble-overlay-nokia-pl2-6.1 \
 	treble-overlay-nokia-pnx-8.1-x7 \
 	treble-overlay-nokia-pnx-8.1-x7-systemui \
@@ -77,13 +84,21 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a30 \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
+	treble-overlay-samsung-a51x \
+	treble-overlay-samsung-a60q \
 	treble-overlay-samsung-a80 \
+	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9-systemui \
+	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-XZ3 \
+	treble-overlay-sprd-ims \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon11 \
+	treble-overlay-telephony-caf-ims \
+	treble-overlay-telephony-mtk-ims \
+	treble-overlay-telephony-slsi-ims \
 	treble-overlay-umidigi-power \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
@@ -118,14 +133,4 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redminote8pro \
 	treble-overlay-xiaomi-redmis2 \
-
-
-PRODUCT_PACKAGES += \
-	hw-fpnav-daemon \
-
-PRODUCT_COPY_FILES += \
-	vendor/hardware_overlay/Huawei/Fingerprint/hw-fingerprint.rc:system/etc/init/hw-fingerprint.rc \
-	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav:system/bin/hw-fpnav \
-	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav.dex:system/phh/hw-fpnav.dex \
-	vendor/hardware_overlay/Huawei/Fingerprint/fingerprint.kl:system/phh/huawei/fingerprint.kl \
 
