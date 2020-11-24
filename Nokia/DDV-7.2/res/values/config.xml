@@ -9,16 +9,10 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
-    <string name="config_mms_user_agent">Android-Mms/2.0</string>
-    <string name="config_mms_user_agent_profile_url">http://useragentprofile.hmdglobal.com/uaprof/Nokia7.2.xml</string>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
-    <bool name="config_wifi_dual_sap_mode_enabled">false</bool>
-    <bool name="config_wifi_softap_acs_supported">true</bool>
-    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
-    <bool name="config_wifi_softap_ieee80211ax_supported">false</bool>
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
         <item>1</item>
@@ -45,47 +39,6 @@
     <!-- statusbar -->
     <dimen name="quick_qs_offset_height">38.0dip</dimen>
     <dimen name="status_bar_height_portrait">31.5dip</dimen>
-    <dimen name="status_bar_icon_size">22.0dip</dimen>
-    <dimen name="status_bar_system_icon_intrinsic_size">17.0dip</dimen>
-
-    <string name="status_bar_volte0">VOLTE0</string>
-    <string name="status_bar_volte1">VOLTE1</string>
-    <string-array name="config_statusBarIcons">
-        <item>@string/status_bar_alarm_clock</item>
-        <item>@string/status_bar_rotate</item>
-        <item>@string/status_bar_headset</item>
-        <item>@string/status_bar_data_saver</item>
-        <item>@string/status_bar_ime</item>
-        <item>@string/status_bar_sync_failing</item>
-        <item>@string/status_bar_sync_active</item>
-        <item>@string/status_bar_nfc</item>
-        <item>@string/status_bar_tty</item>
-        <item>@string/status_bar_speakerphone</item>
-        <item>@string/status_bar_cdma_eri</item>
-        <item>@string/status_bar_data_connection</item>
-        <item>@string/status_bar_phone_evdo_signal</item>
-        <item>@string/status_bar_phone_signal</item>
-        <item>@string/status_bar_secure</item>
-        <item>@string/status_bar_managed_profile</item>
-        <item>@string/status_bar_cast</item>
-        <item>@string/status_bar_vpn</item>
-        <item>@string/status_bar_bluetooth</item>
-        <item>@string/status_bar_camera</item>
-        <item>@string/status_bar_microphone</item>
-        <item>@string/status_bar_location</item>
-        <item>@string/status_bar_mute</item>
-        <item>@string/status_bar_volume</item>
-        <item>@string/status_bar_zen</item>
-        <item>@string/status_bar_ethernet</item>
-        <item>@string/status_bar_volte0</item>
-        <item>@string/status_bar_volte1</item>
-        <item>@string/status_bar_wifi</item>
-        <item>@string/status_bar_hotspot</item>
-        <item>@string/status_bar_mobile</item>
-        <item>@string/status_bar_airplane</item>
-        <item>@string/status_bar_battery</item>
-        <item>@string/status_bar_sensors_off</item>
-    </string-array>
 
     <!-- bluetooth -->
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
@@ -98,10 +51,8 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">4500</integer>
     <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
-    <integer name="config_autoBrightnessShortTermModelTimeout">300000</integer>
     <integer name="config_brightness_ramp_rate_fast">180</integer>
     <integer name="config_brightness_ramp_rate_slow">60</integer>
-    <integer name="config_manual_screenBrightnessSettingMaximum">204</integer>
 
     <integer name="config_screenBrightnessDoze">17</integer>
     <integer name="config_screenBrightnessDark">1</integer>
